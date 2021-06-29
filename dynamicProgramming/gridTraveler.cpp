@@ -2,6 +2,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
+#define int long
 
 int gridTraveler(int r, int c)
 {
@@ -32,9 +33,9 @@ int gridTraveler(int r, int c)
 	return arr[r][c];
 }
 
-int main()
+signed main()
 {
-	int r = 2, c = 3;
+	int r = 18, c = 18;
 	// cin >> r >> c;
 	cout << gridTraveler(r, c) << endl;
 }
