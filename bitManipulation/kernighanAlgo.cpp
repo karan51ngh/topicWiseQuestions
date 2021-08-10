@@ -1,3 +1,4 @@
+// rsbm = x & -x because -x is 2's complement of x
 #include <iostream>
 #include <bits/stdc++.h>
 #define int long
