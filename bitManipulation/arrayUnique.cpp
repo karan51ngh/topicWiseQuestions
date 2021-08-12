@@ -1,4 +1,14 @@
 // all elements appear twice, 1 element appears only once. find that element.
+/*
+	bits:
+		b^1=~b
+		b^0=b
+	Decimal:
+		x^x=0
+		x^0=x
+		x^y^z = x ^(y^z) = (x^y)^z = z^x^y ...
+
+*/
 #include <iostream>
 #include <bits/stdc++.h>
 #define int long
